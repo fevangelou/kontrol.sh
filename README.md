@@ -1,0 +1,2 @@
+# kontrol.sh
+kontrol.sh

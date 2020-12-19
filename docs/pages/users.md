@@ -33,3 +33,10 @@ $ ./user.sh rem johndoe
 ```
 
 Pressing Ctrl+C within 5 seconds will cancel the above action.
+
+
+
+### Tips
+
+- Avoid creating or deleting system users with the use of useradd or userdel which are native Linux commands.
+- Creating or deleting system users does not have any effect on database users, which are to be entirely managed by phpMyAdmin (or MySQL CLI commands).

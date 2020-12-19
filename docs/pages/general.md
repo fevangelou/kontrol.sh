@@ -11,8 +11,8 @@ At the time of writing, this would be output from the command above:
 ```
 Kontrol is a handy suite of scripts for deploying and managing Ubuntu & CentOS servers.
 
-Current version: 2.9
-Released: September 5th, 2018
+Current version: 3.0
+Released: December 18th, 2020
 
 Usage: kontrol [command]
 

@@ -5,6 +5,9 @@
 * Added support for PHP up to v8.1
 * Includes phpMyAdmin v5.1.1 (latest)
 * Added support for Varnish v7
+* Added support for FTP (based on vsftpd and utilizing "virtual" users)
+* Updated all external utilities (e.g. Tuning Primer, MySQLTuner etc.)
+* Updated the LetsEncrypt certificate issuing script
 
 ### December 18th, 2020 - v3.0
 * First new version in 2 years.

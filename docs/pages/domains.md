@@ -42,9 +42,9 @@ To switch that domain or any domain at any point to a different PHP version, sim
 $ ./domain.sh switch USERNAME NAKED_DOMAIN_OR_SUBDOMAIN TARGET_PHP_VERSION
 ```
 
-Valid values for TARGET\_PHP\_VERSION at the time of writing are: 5.6, 7.0, 7.1, 7.2, 7.3 & 7.4
+Valid values for TARGET\_PHP\_VERSION at the time of writing are: 5.6, 7.0, 7.1, 7.2, 7.3, 7.4, 8.0 & 8.1
 
-For example, to switch domain example.com from user johndoe to PHP 7.2, you would do:
+For example, to switch domain "example.com" (assigned to user "johndoe") to PHP 7.4, you would just do:
 ```
-$ ./domain.sh switch johndoe example.com 7.2
+$ ./domain.sh switch johndoe example.com 7.4
 ```

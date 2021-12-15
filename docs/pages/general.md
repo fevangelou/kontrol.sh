@@ -35,8 +35,7 @@ Main commands:
     upd              Update server software
 
 Database related commands:
-    tp               Run Tuning Primer diagnostics for MySQL (up to v5.6) or MariaDB
-    tp2              Run Tuning Primer (by RootService) diagnostics for MySQL (up to v5.7) or MariaDB
+    tp               Run Tuning Primer diagnostics for MySQL (up to v8) or MariaDB
     mt               Run MySQL Tuner diagnostics for MySQL (up to v8) or MariaDB
     mf               Run MySQL Fragmentation Finder (and Fixer) to optimize all server databases
 

@@ -10,3 +10,4 @@
     * [Managing Users](pages/users.md)
     * [Managing Domains](pages/domains.md)
     * [Managing Services](pages/services.md)
+    * [FTP Users](pages/ftp.md)

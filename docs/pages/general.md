@@ -9,10 +9,18 @@ $ kontrol -h
 At the time of writing, this would be output from the command above:
 
 ```
+    __ __            __             __ 
+   / //_/___  ____  / /__________  / / 
+  / ,< / __ \/ __ \/ __/ ___/ __ \/ /  
+ / /| / /_/ / / / / /_/ /  / /_/ / /   
+/_/ |_\____/_/ /_/\__/_/   \____/_/    
+                                       
+        https://kontrol.sh             
+
 Kontrol is a handy suite of scripts for deploying and managing Ubuntu & CentOS servers.
 
-Current version: 3.0
-Released: December 18th, 2020
+Current version: 3.5
+Released: December 15th, 2021
 
 Usage: kontrol [command]
 
@@ -23,13 +31,13 @@ Pre-deployment commands:
 Main commands:
     (empty)          Restart main web services only (PHP5-FPM, Apache and/or Nginx, Varnish)
     all              Restart Cron, CSF & LFD (if installed), Munin (if installed),
-                     MySQL, PHP5-FPM, Apache, Nginx, Varnish
+                     MySQL, PHP-FPM (all versions), Apache, Nginx, Varnish
     upd              Update server software
 
 Database related commands:
-    tp               Run Tuning Primer diagnostics for MySQL (up to v5.6)
-    tp2              Run Tuning Primer (by RootService) diagnostics for MySQL (up to v5.7)
-    mt               Run MySQL Tuner diagnostics for MySQL
+    tp               Run Tuning Primer diagnostics for MySQL (up to v5.6) or MariaDB
+    tp2              Run Tuning Primer (by RootService) diagnostics for MySQL (up to v5.7) or MariaDB
+    mt               Run MySQL Tuner diagnostics for MySQL (up to v8) or MariaDB
     mf               Run MySQL Fragmentation Finder (and Fixer) to optimize all server databases
 
 Service related commands:
@@ -55,6 +63,9 @@ Utility commands:
     -h OR --help     Show this info page
 
 ~~ Enjoy Kontrol! ~~
+
+
+=== Powered by Kontrol v3.5 ===
 ```
 
 As noted above, you can perform basic tasks like:

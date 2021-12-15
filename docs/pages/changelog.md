@@ -1,8 +1,12 @@
 
 ## Changelog
 
-### December 18th, 2020 - v3.0
+### December 15th, 2021 - v3.5
+* Added support for PHP up to v8.1
+* Includes phpMyAdmin v5.1.1 (latest)
+* Added support for Varnish v7
 
+### December 18th, 2020 - v3.0
 * First new version in 2 years.
 * New unified web control panel with a single secure login for all apps except phpMyAdmin (for precaution & additional security).
 * Many under-the-hood improvements, especially in how Nginx and Varnish interface and under heavy caching scenarios. Nginx can easily be used for HTTPS termination, proxying requests to Varnish which in turn fetches content from Nginx on port 8080.

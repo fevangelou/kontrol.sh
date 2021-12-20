@@ -8,4 +8,4 @@ Please note that the instructions in these documents STRICTLY apply to Kontrol v
 
 **Thank you for using Kontrol!**
 
-_(updated December 15th, 2021)_
+_(updated December 20th, 2021)_

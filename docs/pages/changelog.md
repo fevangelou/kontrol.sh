@@ -1,6 +1,13 @@
 
 ## Changelog
 
+### December 20th, 2021 - v3.7
+* Make symlink of kontrol.sh to /usr/local/sbin/ and stop using `alias kontrol='/root/kontrol/kontrol.sh'`
+
+### December 16th, 2021 - v3.6
+* From this version on, all new releases will be updated with a changelog list
+* Added support for EL8, removed common package installing from main installers (either Ubuntu or EL), updated cPanel installer for EL8
+
 ### December 15th, 2021 - v3.5
 * Added support for PHP up to v8.1
 * Includes phpMyAdmin v5.1.1 (latest)

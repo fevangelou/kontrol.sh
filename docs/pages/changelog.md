@@ -1,6 +1,15 @@
 
 ## Changelog
 
+### June 29th - v4.1
+* Total overhaul of the command and tools system
+* Commands now execute under "kontrol", e.g. "kontrol user add johndoe" or "kontrol domain add johndoe example.com"
+* "kontrol" is now a system command and as such can be executed anywhere you are in the system. Instead of cd'ing to the /root/kontrol folder and issuing direct script commands, e.g. ./domain.sh ..., you now simply replace all such script commands with "kontrol domain ..." or "kontrol user ..." and so on, executable anywhere in the system.
+* "kontrol user add" command will now auto-generate a password for the user and also create an associated database user with an auto-generated password as well
+* New installers added
+* New common configurations for WordPress and Drupal added in Nginx
+* Improvements on existing installers
+
 ### December 20th, 2021 - v3.7
 * Make symlink of kontrol.sh to /usr/local/sbin/ and stop using `alias kontrol='/root/kontrol/kontrol.sh'`
 

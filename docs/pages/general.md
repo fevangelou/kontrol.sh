@@ -9,18 +9,18 @@ $ kontrol -h
 At the time of writing, this would be output from the command above:
 
 ```
-    __ __            __             __ 
-   / //_/___  ____  / /__________  / / 
-  / ,< / __ \/ __ \/ __/ ___/ __ \/ /  
- / /| / /_/ / / / / /_/ /  / /_/ / /   
-/_/ |_\____/_/ /_/\__/_/   \____/_/    
-                                       
-        https://kontrol.sh             
+    __ __            __             __
+   / //_/___  ____  / /__________  / /
+  / ,< / __ \/ __ \/ __/ ___/ __ \/ /
+ / /| / /_/ / / / / /_/ /  / /_/ / /
+/_/ |_\____/_/ /_/\__/_/   \____/_/
+
+        https://kontrol.sh
 
 Kontrol is a handy suite of scripts for deploying and managing Ubuntu & CentOS servers.
 
-Current version: 4.1
-Released: June 29th, 2022
+Current version: 4.11
+Released: January 14th, 2025
 
 Usage: kontrol [command]
 
@@ -60,6 +60,9 @@ Usage: kontrol [command]
     cleanup         Cleanup Mac or Windows specific metadata & Apache error_log files
                     in all user /public_html directories
 
+~ SSL Certificates:
+    ssl             Issue certificates through LetsEncrypt, ZeroSSL or other CAs
+
 ~ Purge Caches:
     purgecache      Purge Nginx's "cache" & "temp" folders,
                     then restart Apache and/or Nginx
@@ -76,7 +79,7 @@ Usage: kontrol [command]
 
 
 
-~ Powered by Kontrol v4.1 ~
+~ Powered by Kontrol v4.11 ~
 
 ```
 

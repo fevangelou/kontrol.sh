@@ -35,4 +35,4 @@ To add an SSL certificate for a specific domain simply do:
 $ kontrol ssl example.com www.example.com
 ```
 
-(this will ensure both the naked and "wwww" subdomain get a valid SSL certificate)
+(this will ensure both the naked and "www" subdomain get a valid SSL certificate)

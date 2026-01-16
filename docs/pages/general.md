@@ -9,7 +9,7 @@ $ kontrol -h
 At the time of writing, this would be output from the command above:
 
 ```
-    __ __            __             __
+ __ __            __             __
    / //_/___  ____  / /__________  / /
   / ,< / __ \/ __ \/ __/ ___/ __ \/ /
  / /| / /_/ / / / / /_/ /  / /_/ / /
@@ -19,8 +19,8 @@ At the time of writing, this would be output from the command above:
 
 Kontrol is a handy suite of scripts for deploying and managing Ubuntu & CentOS servers.
 
-Current version: 4.11
-Released: January 14th, 2025
+Current version: 4.12
+Released: January 16th, 2026
 
 Usage: kontrol [command]
 
@@ -52,13 +52,17 @@ Usage: kontrol [command]
     443             Show active connections on port 443 sorted by connection count & IP,
                     including total concurrent connections count
     80-443          Show totals for concurrent connections on ports 80 & 443
+        ip2isp          List the top 30 IPs by request count along with their ISP name - this
+                        must be run inside the /home/USERNAME/domains/DOMAIN/logs folder of any given
+                                        domain to work properly.
 
 ~ Filesystem Utilities:
-    fixownerperms   Fix owner permissions in all user /public_html directories
-    fixaccessperms  Change file & directory access permissions to 644 & 755 respectively
-                    in all user /public_html directories
-    cleanup         Cleanup Mac or Windows specific metadata & Apache error_log files
-                    in all user /public_html directories
+    fixownerperms (or fop)   Fix owner permissions in all user /public_html directories
+    fixaccessperms (or fap)  Change file & directory access permissions to 644 & 755 respectively
+                             in all user /public_html directories
+    cleanup                  Cleanup Mac or Windows specific metadata & Apache error_log files
+                             in all user /public_html directories
+        hh                       Cleanup and overwrite bash history file for enhanced privacy
 
 ~ SSL Certificates:
     ssl             Issue certificates through LetsEncrypt, ZeroSSL or other CAs
@@ -79,7 +83,7 @@ Usage: kontrol [command]
 
 
 
-~ Powered by Kontrol v4.11 ~
+~ Powered by Kontrol v4.12 ~
 
 ```
 
